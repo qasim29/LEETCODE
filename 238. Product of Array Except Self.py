@@ -12,7 +12,7 @@ def productExceptSelf(nums):
     prev=1
     for i in range(len(nums)-1,-1,-1):
         sarr.insert(0,prev*nums[i])
-        prev=prev*nums[i]git
+        prev=prev*nums[i]
     print(nums)
     print(parr)
     print(sarr)
